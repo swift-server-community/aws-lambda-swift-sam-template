@@ -1,0 +1,3 @@
+# API Gateway to Lambda SAM Template
+
+The Swift API to Lambda SAM template provides a streamlined way to deploy serverless APIs using AWS Lambda and the Serverless Application Model (SAM) framework, leveraging the Swift programming language. This template enables developers to quickly set up API endpoints backed by AWS Lambda functions written in Swift. By using SAM, developers can define their API routes, integrate with various AWS services, and manage infrastructure as code, simplifying the deployment and maintenance process. With Swift as the programming language, developers can leverage its performance and type safety features to build robust and efficient serverless applications on AWS Lambda.

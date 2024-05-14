@@ -1,0 +1,17 @@
+{
+  "project_name": "SQS to Swift Lambda",
+  "sqs_queue_name": "sqs-to-swift-lambda",
+  "__sqs_queue_name": "{{ cookiecutter.sqs_queue_name|lower|replace(' ', '-') }}",
+  "__project_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "__architecture": "{{ 'x86_64'|architecture }}",
+  "_copy_without_render": [".gitignore"],
+  "_template_name": "SQS to Lambda",
+  "_runtime": "Swift 5.9.0",
+  "_swift_tools_version": "5.9.0",
+  "_aws_swift_sdk_version": "0.37.0",
+  "__project_dir": "{{ 'Change this path'|get_abs_path }}/{{ cookiecutter.__project_name }}",
+  "_extensions": [
+    "local_extensions.architecture",
+    "local_extensions.get_abs_path"
+  ]
+}

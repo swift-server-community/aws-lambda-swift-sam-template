@@ -1,0 +1,24 @@
+{
+  "templates": {
+    "api-to-lambda": {
+      "path": "templates/api-to-lambda",
+      "title": "API to Lambda",
+      "description": "API Gateway to Lambda function integration"
+    },
+    "sqs-to-lambda": {
+      "path": "templates/sqs-to-lambda",
+      "title": "SQS to Lambda",
+      "description": "AWS SQS to Lambda function integration"
+    },
+    "s3-to-lambda": {
+      "path": "templates/s3-to-lambda",
+      "title": "S3 to Lambda",
+      "description": "AWS S3 to Lambda function integration"
+    },
+    "scheduler-to-lambda": {
+      "path": "templates/scheduler-to-lambda",
+      "title": "Scheduler to Lambda",
+      "description": "Scheduled events to Lambda function integration"
+    }
+  }
+}
