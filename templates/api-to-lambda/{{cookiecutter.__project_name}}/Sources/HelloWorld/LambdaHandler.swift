@@ -32,6 +32,6 @@ struct HelloWorld: SimpleLambdaHandler {
     func handle(_ event: APIGatewayV2Request, context: LambdaContext) async throws -> APIGatewayV2Response {
 
         // Process the API Gateway event
-        return APIGatewayV2Response(statusCode: HTTPResponseStatus(code: 200), body: "Hello from AWS!")
+        return APIGatewayV2Response(statusCode: .ok, body: "Hello from AWS!")
     }
 }
