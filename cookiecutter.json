@@ -19,6 +19,11 @@
       "path": "templates/scheduler-to-lambda",
       "title": "Scheduler to Lambda",
       "description": "Scheduled events to Lambda function integration"
-    }
+    },
+    "openapi-to-lambda": {
+      "path": "templates/openapi-to-lambda",
+      "title": "OpenAPI definition to Lambda",
+      "description": "An OpenAPI definition to generate the Lambda function (with API Gateway)"
+    }    
   }
 }
