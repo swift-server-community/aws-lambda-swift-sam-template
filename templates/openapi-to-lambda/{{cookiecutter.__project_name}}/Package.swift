@@ -29,8 +29,8 @@ let package = Package(
   dependencies: [
     .package(url: "https://github.com/apple/swift-openapi-generator.git", from: "1.0.0"),
     .package(url: "https://github.com/apple/swift-openapi-runtime.git", from: "1.0.0"),
-    .package(url: "https://github.com/swift-server/swift-aws-lambda-runtime.git", from: "1.0.0-alpha.1"),
-    .package(url: "https://github.com/swift-server/swift-aws-lambda-events.git", from: "0.2.0"),
+    .package(url: "https://github.com/swift-server/swift-aws-lambda-runtime.git", from: "1.0.0-alpha.3"),
+    .package(url: "https://github.com/swift-server/swift-aws-lambda-events.git", from: "0.4.0"),
     .package(url: "https://github.com/swift-server/swift-openapi-lambda.git", from: "0.1.1") 
   ],
   targets: [
