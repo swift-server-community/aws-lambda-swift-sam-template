@@ -25,8 +25,8 @@ let package = Package(
         .executable(name: "HelloWorld", targets: ["HelloWorld"])
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-server/swift-aws-lambda-runtime", branch: "main"),
-        .package(url: "https://github.com/swift-server/swift-aws-lambda-events", branch: "main"),
+        .package(url: "https://github.com/swift-server/swift-aws-lambda-runtime", branch: "1.0.0-alpha.3"),
+        .package(url: "https://github.com/swift-server/swift-aws-lambda-events", from: "0.4.0"),
         // Uncomment the following line to use the AWS SDK for Swift in your Lambda function aswell as the line in the targets section
         // .package(url: "https://github.com/awslabs/aws-sdk-swift", from: "{{ cookiecutter._aws_swift_sdk_version }}")
     ],
